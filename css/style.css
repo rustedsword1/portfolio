@@ -32,3 +32,11 @@ ul {
   max-width: 600px;
   margin: 0 auto 1.5em;
 }
+
+.skills-list {
+  list-style-position: outside;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto 1.5em;
+  padding-left: 1.2em;
+}
