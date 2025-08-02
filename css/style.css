@@ -12,3 +12,15 @@ nav a {
   color: #007BFF;
   font-weight: bold;
 }
+
+.centered-list {
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto 20px;
+  padding-left: 0;
+}
+
+.centered-list li {
+  margin-bottom: 8px;
+}
