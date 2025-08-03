@@ -40,3 +40,17 @@ ul {
   margin: 0 auto 1.5em;
   padding-left: 1.2em;
 }
+
+.screenshot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.screenshot-gallery img {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
